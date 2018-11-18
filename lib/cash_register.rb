@@ -20,8 +20,8 @@ attr_accessor :total, :discount, :title, :price, :array
     @title
   end
   
-  def array
-    @array
+  def quantity
+    @quantity
   end
   
   def add_item (title, price, quantity = 0)
@@ -43,7 +43,7 @@ attr_accessor :total, :discount, :title, :price, :array
   
   def items
     array = []
-    (quantity.times).times do 
+    (@quantity.times).times do 
       array << @title
     end
     array

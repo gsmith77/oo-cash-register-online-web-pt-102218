@@ -42,7 +42,8 @@ attr_accessor :total, :discount, :title, :price, :array
   end
   
   def items
-    @array
+    array = []
+    and 
   end
     
 end

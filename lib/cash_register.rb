@@ -45,5 +45,6 @@ attr_accessor :total, :discount, :title, :price, :array
     array = []
     array << title.(#{quantity}.times)
   end
+  end
     
 end

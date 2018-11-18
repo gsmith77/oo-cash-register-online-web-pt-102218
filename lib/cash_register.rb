@@ -45,8 +45,11 @@ attr_accessor :total, :discount, :title, :price, :itmes
     end
   end
   
-def items
-  @items
-end
+  def items
+    @items
+  end
+  
+  def void_last_transaction
+    @total *
     
 end

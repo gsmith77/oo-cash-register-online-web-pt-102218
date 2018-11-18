@@ -25,7 +25,7 @@ attr_accessor :total, :discount, :title, :price
   end
   
   def apply_discount
-    @total = @total - @discount
+    @total = @total - (@total * (@discount/100))
     if @total < 1000
       "After the discount, the total comes to $800."
     elsif self == 0

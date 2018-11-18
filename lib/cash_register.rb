@@ -25,8 +25,9 @@ attr_accessor :total, :discount, :title, :price, :array
   end
   
   def add_item (title, price, quantity = 0)
-    @array = []
-    @array << @title
+    array = []
+    creation = self.new(title, quantity)
+    array << creation
     if quantity == 0
       @total = total + price
     else quantity > 0

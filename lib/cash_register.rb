@@ -50,6 +50,6 @@ attr_accessor :total, :discount, :title, :price, :itmes
   end
   
   def void_last_transaction
-    @total *
-    
+    @total = @total - @total
+  end
 end

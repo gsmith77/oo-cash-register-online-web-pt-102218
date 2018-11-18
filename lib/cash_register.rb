@@ -32,6 +32,9 @@ attr_accessor :total, :discount, :title, :price
     "There is no discount to apply."
     end
   end
-    
+  
+  def items
+    array = []
+    array << self
     
 end

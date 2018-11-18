@@ -46,6 +46,7 @@ attr_accessor :total, :discount, :title, :price, :array
     @quantity.times do 
       array << @title
     end
+    array
   end
     
 end

@@ -44,8 +44,6 @@ attr_accessor :total, :discount, :title, :price, :array
   end
   
   def items
-
-    end
     array
   end
     

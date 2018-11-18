@@ -27,7 +27,7 @@ attr_accessor :total, :discount, :title, :price
       @total = total + (price * quantity)
     end
     array = []
-    array << @title
+    array << title
   end
   
   def apply_discount

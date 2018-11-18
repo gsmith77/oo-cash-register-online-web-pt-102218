@@ -36,5 +36,6 @@ attr_accessor :total, :discount, :title, :price
   def items
     array = []
     array << self
+  end
     
 end

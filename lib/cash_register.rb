@@ -6,6 +6,7 @@ attr_accessor :total, :discount, :title, :price, :array
   def initialize (discount = 0)
     @total = 0
     @discount = discount
+    @items = []
   end
 
   def total

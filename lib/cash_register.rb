@@ -26,7 +26,7 @@ attr_accessor :total, :discount, :title, :price, :itmes
   end
   
   def add_item (title, price, quantity = 0)
-    @items << @title.(@quantity.times)
+    @items << @title.(quantity.times)
     if quantity == 0
       @total = total + price
     else quantity > 0

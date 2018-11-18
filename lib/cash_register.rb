@@ -29,7 +29,7 @@ attr_accessor :total, :discount, :title, :price
     if @total < 1000
       "After the discount, the total comes to $#{total}."
     else @total == 1000
-      
+      "There is no discount to apply."
     end
   end
     

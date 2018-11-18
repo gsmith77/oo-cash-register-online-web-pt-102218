@@ -28,7 +28,6 @@ attr_accessor :total, :discount, :title, :price
     if @discount > 0
       @total = @total - (@total * (@discount/100.000))
       "After the discount, the total comes to $800."
-    
     elsif @discount = 0
     "There is no discount to apply."
     end

@@ -1,7 +1,7 @@
 class CashRegister
 
 
-attr_accessor :total, :discount, :title, :price
+attr_accessor :total, :discount, :title, :price, :array
 
   def initialize (discount = 0)
     @total = 0
@@ -20,9 +20,13 @@ attr_accessor :total, :discount, :title, :price
     @title
   end
   
+  def array
+    @array
+  end
+  
   def add_item (title, price, quantity = 0)
-    array = []
-    array << title
+    @array = []
+    @array << title
     if quantity == 0
       @total = total + price
     else quantity > 0

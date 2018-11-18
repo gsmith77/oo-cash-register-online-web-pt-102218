@@ -25,8 +25,8 @@ attr_accessor :total, :discount, :title, :price
   end
   
   def apply_discount
-    @total = @total - (@total * (@discount/100))
-    return "After the discount, the total comes to #@{total}."
+    total = @total - (@total * (@discount/100))
+    return "After the discount, the total comes to #{total}."
   end
     
     
